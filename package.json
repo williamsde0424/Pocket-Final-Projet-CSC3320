@@ -1,0 +1,29 @@
+{
+  "name": "pocket-final-projet-csc3320-main",
+  "version": "1.0.0",
+  "description": "Final project Database for CSC3320",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamsde0424/Pocket-Final-Projet-CSC3320.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/williamsde0424/Pocket-Final-Projet-CSC3320/issues"
+  },
+  "homepage": "https://github.com/williamsde0424/Pocket-Final-Projet-CSC3320#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  }
+}
