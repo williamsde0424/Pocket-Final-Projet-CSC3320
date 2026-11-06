@@ -30,7 +30,7 @@ Final project Database for CSC3320
 The relational schema comprises 8 core tables:
 
 1. `user`: Stores system users.
-2. `inventory_group`: Represents shared asset groups (e.g., families, roommates).
+2. `inventory_group`: Represents shared asset groups (e.g., families, roommates, business).
 3. `group_member`: Junction table mapping users to inventory groups with role-based access.
 4. `primary_location`: Top-level storage venues (e.g., "Home", "Storage Unit").
 5. `sublocation`: Granular storage areas (e.g., "Garage Workbench", "Shelf 3").
