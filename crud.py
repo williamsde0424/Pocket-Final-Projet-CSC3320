@@ -97,4 +97,4 @@ def delete_item(item_id):
 if __name__ == "__main__":
     # Test CRUD flow
     print("Testing CRUD operations...")
-    # Note: Ensure you have at least one inventory_group and primary_location inserted before running test creates.
+  
