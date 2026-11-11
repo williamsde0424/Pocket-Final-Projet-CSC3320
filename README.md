@@ -5,7 +5,7 @@ Final project Database for CSC3320
 # Pocket - Personal Possession & Inventory Tracker
 
 **CSC 3320 Database Systems Final Project**  
-**Team 2:** Demarion Williams, Dominic Celentano, Lexi Dorner  
+**Team:** Demarion Williams
 **Institution:** Milwaukee School of Engineering (MSOE)
 
 ---
