@@ -24,12 +24,20 @@ def create_database():
             connection.commit()
             print('All tables created successfully based on the ERD schema!')
 
-    except Exception as e:
-        print(f'Error while connecting to MySQL: {e}')
+    except mysql.connector.Error as e:
+        print(f"Database error: {e}")
     finally:
-        if 'connection' in locals() and connection.is_connected():
-            cursor.close()
-            connection.close()
+        # Safely close cursor and connection without triggering is_connected() unread result checks
+        if 'cursor' in locals() and cursor:
+            try:
+                cursor.close()
+            except Exception:
+                pass
+        if 'connection' in locals() and connection:
+            try:
+                connection.close()
+            except Exception:
+                pass
 
 if __name__ == '__main__':
     create_database()

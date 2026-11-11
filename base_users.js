@@ -6,7 +6,7 @@ async function insertBaseUsers() {
     const pool = mysql.createPool({
         host: 'localhost',
         user: 'root',
-        password: '', 
+        password: 'Rufusking2@', 
         database: 'pocket_db'
     });
 

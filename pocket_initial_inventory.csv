@@ -1,0 +1,101 @@
+item_id,item_name,category,sublocation,primary_location,group_name,description,image_url
+1,Cordless Drill,Tools,Garage Workbench,Home,The Smiths Group,18V Makita drill with battery charger and bits,drill.jpg
+2,Circular Saw,Tools,Garage Workbench,Home,The Smiths Group,7-1/4 inch corded circular saw,saw.jpg
+3,Camping Tent,Outdoor,Shelf 3,Storage Unit,The Smiths Group,4-person waterproof dome tent,tent.jpg
+4,Sleeping Bag,Outdoor,Shelf 3,Storage Unit,The Smiths Group,Cold-weather mummy sleeping bag,sleeping_bag.jpg
+5,HDMI Cable,Electronics,Living Room TV Stand,Home,The Smiths Group,6-foot high-speed braided HDMI 2.1 cable,hdmi.jpg
+6,Extension Cord,Tools,Garage Workbench,Home,The Smiths Group,25-foot heavy-duty outdoor extension cord,cord.jpg
+7,Winter Parka,Clothing,Master Bedroom Closet,Home,The Smiths Group,Insulated heavy winter coat with hood,parka.jpg
+8,Running Shoes,Clothing,Mudroom Shoe Rack,Home,The Smiths Group,Nike Air Zoom Pegasus running shoes size 10,shoes.jpg
+9,Carbon Fiber Pool Cue,Recreation,Basement Game Room,Home,The Smiths Group,Professional 2-piece billiard cue stick with case,pool_cue.jpg
+10,Golf Clubs Set,Recreation,Garage Workbench,Home,The Smiths Group,Complete men's golf club set with stand bag,golf_clubs.jpg
+11,Steam Iron,Appliances,Laundry Room Shelf,Home,The Smiths Group,Rowenta professional stainless steel soleplate iron,iron.jpg
+12,Upright Vacuum Cleaner,Appliances,Hallway Closet,Home,The Smiths Group,Dyson bagless multi-floor upright vacuum,vacuum.jpg
+13,TI-84 Plus CE Calculator,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Graphing calculator for engineering coursework,calc.jpg
+14,Calculus & Physics Textbooks,Academics,Bookshelf,MSOE Apartment,College Student Inventory,Engineering core curriculum textbooks,books.jpg
+15,Mini Fridge,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,Compact refrigerator with small freezer compartment,minifridge.jpg
+16,Dorm Desk Lamp,Electronics,Study Desk,MSOE Apartment,College Student Inventory,LED adjustable desk lamp with USB charging port,lamp.jpg
+17,Hammer,Tools,Garage Workbench,Home,The Smiths Group,16oz fiberglass claw hammer,item_17.jpg
+18,Screwdriver Set,Tools,Garage Workbench,Home,The Smiths Group,Magnetic tip precision screwdrivers 10pc,item_18.jpg
+19,Socket Wrench Set,Tools,Garage Workbench,Home,The Smiths Group,Metric and SAE ratchet socket set,item_19.jpg
+20,Lawn Mower,Tools,Garage Workbench,Home,The Smiths Group,Gas-powered self-propelled push mower,item_20.jpg
+21,Leaf Blower,Tools,Garage Workbench,Home,The Smiths Group,Cordless handheld electric blower,item_21.jpg
+22,Hedge Trimmer,Tools,Garage Workbench,Home,The Smiths Group,Electric shrub trimmer 24-inch blade,item_22.jpg
+23,Toolbox,Tools,Garage Workbench,Home,The Smiths Group,Heavy duty cantilever metal tool chest,item_23.jpg
+24,Step Ladder,Tools,Garage Workbench,Home,The Smiths Group,Aluminum 6-foot folding step ladder,item_24.jpg
+25,Work Light,Tools,Garage Workbench,Home,The Smiths Group,LED rechargeable dual head work floodlight,item_25.jpg
+26,Tape Measure,Tools,Garage Workbench,Home,The Smiths Group,25-foot auto-lock tape measure,item_26.jpg
+27,Hiking Backpack,Outdoor,Shelf 1,Storage Unit,The Smiths Group,55L technical trekking backpack,item_27.jpg
+28,Cooler Box,Outdoor,Shelf 2,Storage Unit,The Smiths Group,48-quart high performance insulated cooler,item_28.jpg
+29,Folding Camping Chair,Outdoor,Shelf 2,Storage Unit,The Smiths Group,Quad folding chair with cup holder,item_29.jpg
+30,Portable Propane Stove,Outdoor,Shelf 1,Storage Unit,The Smiths Group,Dual burner camping stove,item_30.jpg
+31,Headlamp,Outdoor,Shelf 3,Storage Unit,The Smiths Group,LED waterproof rechargeable headlamp,item_31.jpg
+32,Trekking Poles,Outdoor,Shelf 3,Storage Unit,The Smiths Group,Carbon fiber collapsible hiking poles,item_32.jpg
+33,Hammock,Outdoor,Shelf 1,Storage Unit,The Smiths Group,Double portable parachute nylon hammock,item_33.jpg
+34,Inflatable Paddle Board,Outdoor,Shelf 2,Storage Unit,The Smiths Group,All-around SUP board with pump and paddle,item_34.jpg
+35,Fishing Rod and Reel,Outdoor,Shelf 1,Storage Unit,The Smiths Group,Spinning combo medium-heavy rod,item_35.jpg
+36,First Aid Kit,Outdoor,Shelf 3,Storage Unit,The Smiths Group,Comprehensive emergency trauma medical bag,item_36.jpg
+37,"Smart TV 55""",Electronics,Living Room TV Stand,Home,The Smiths Group,4K UHD LED smart television,item_37.jpg
+38,Soundbar,Electronics,Living Room TV Stand,Home,The Smiths Group,Bluetooth wireless audio soundbar with subwoofer,item_38.jpg
+39,Bluetooth Speaker,Electronics,Shelf 1,Storage Unit,The Smiths Group,Waterproof portable wireless speaker,item_39.jpg
+40,DSLR Camera,Electronics,Master Bedroom Closet,Home,The Smiths Group,Digital camera with 18-55mm lens kit,item_40.jpg
+41,Tablet Device,Electronics,Desk Drawer,MSOE Apartment,College Student Inventory,10-inch screen tablet for notes and reading,item_41.jpg
+42,External Hard Drive,Electronics,Desk Drawer,MSOE Apartment,College Student Inventory,2TB USB-C portable backup storage,item_42.jpg
+43,Wireless Mouse,Electronics,Study Desk,MSOE Apartment,College Student Inventory,Ergonomic wireless optical mouse,item_43.jpg
+44,Mechanical Keyboard,Electronics,Study Desk,MSOE Apartment,College Student Inventory,RGB backlit brown switch mechanical keyboard,item_44.jpg
+45,Noise Cancelling Headphones,Electronics,Bedside Stand,MSOE Apartment,College Student Inventory,Over-ear wireless active noise cancelling headset,item_45.jpg
+46,USB-C Hub Multiport,Electronics,Study Desk,MSOE Apartment,College Student Inventory,"Dongle adapter with HDMI, USB 3.0, and SD reader",item_46.jpg
+47,Leather Jacket,Clothing,Master Bedroom Closet,Home,The Smiths Group,Classic black motorcycle biker jacket,item_47.jpg
+48,Formal Suit,Clothing,Master Bedroom Closet,Home,The Smiths Group,Charcoal grey two-piece business suit size 40R,item_48.jpg
+49,Jeans Denim,Clothing,Master Bedroom Closet,Home,The Smiths Group,Straight fit blue denim jeans 32x32,item_49.jpg
+50,Wool Sweater,Clothing,Master Bedroom Closet,Home,The Smiths Group,Cable knit crewneck pullover sweater,item_50.jpg
+51,Dress Shoes,Clothing,Mudroom Shoe Rack,Home,The Smiths Group,Black leather oxford formal shoes,item_51.jpg
+52,Casual Sneakers,Clothing,Mudroom Shoe Rack,Home,The Smiths Group,White leather low-top casual sneakers,item_52.jpg
+53,Winter Boots,Clothing,Mudroom Shoe Rack,Home,The Smiths Group,Waterproof insulated snow boots,item_53.jpg
+54,Gym Duffel Bag,Clothing,Hallway Closet,Home,The Smiths Group,Large athletic training gym bag,item_54.jpg
+55,Baseball Cap,Clothing,Master Bedroom Closet,Home,The Smiths Group,Cotton adjustable athletic baseball hat,item_55.jpg
+56,Activewear Shorts,Clothing,Master Bedroom Closet,Home,The Smiths Group,Breathable moisture-wicking workout shorts,item_56.jpg
+57,Billiard Balls Set,Recreation,Basement Game Room,Home,The Smiths Group,Regulation resin pool ball set with cue ball,item_57.jpg
+58,Dartboard Cabinet,Recreation,Basement Game Room,Home,The Smiths Group,Bristle dartboard set with wooden cabinet doors,item_58.jpg
+59,Poker Chips Set,Recreation,Basement Game Room,Home,The Smiths Group,500-piece laser engraved clay poker chip case,item_59.jpg
+60,Acoustic Guitar,Recreation,Basement Game Room,Home,The Smiths Group,Dreadnought acoustic guitar with gig bag,item_60.jpg
+61,Board Game Collection,Recreation,Living Room TV Stand,Home,The Smiths Group,Strategy board games box bundle,item_61.jpg
+62,Dumbbell Set,Recreation,Garage Corner,Home,The Smiths Group,Adjustable weight dumbbell pair 5-52.5 lbs,item_62.jpg
+63,Yoga Mat,Recreation,Master Bedroom Closet,Home,The Smiths Group,Non-slip exercise fitness yoga mat,item_63.jpg
+64,Resistance Bands,Recreation,Master Bedroom Closet,Home,The Smiths Group,Workout exercise stretch band set,item_64.jpg
+65,Basketball,Recreation,Garage Corner,Home,The Smiths Group,Official size indoor/outdoor rubber basketball,item_65.jpg
+66,Soccer Ball,Recreation,Garage Corner,Home,The Smiths Group,Standard size training match soccer ball,item_66.jpg
+67,Microwave Oven,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,Countertop digital microwave 1000W,item_67.jpg
+68,Coffee Maker,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,Drip coffee machine with glass carafe,item_68.jpg
+69,Air Fryer,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,Digital crisp air fryer 4-quart capacity,item_69.jpg
+70,Blender,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,Countertop smoothie blender with pitcher,item_70.jpg
+71,Toaster,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,2-slice stainless steel wide slot toaster,item_71.jpg
+72,Electric Kettle,Appliances,Kitchen Corner,MSOE Apartment,College Student Inventory,Fast-boil cordless tea water kettle,item_72.jpg
+73,Hair Dryer,Appliances,Laundry Room Shelf,Home,The Smiths Group,Ionic ceramic professional blow dryer,item_73.jpg
+74,Electric Shaver,Appliances,Laundry Room Shelf,Home,The Smiths Group,Cordless rechargeable rotary foil shaver,item_74.jpg
+75,Space Heater,Appliances,Hallway Closet,Home,The Smiths Group,Ceramic oscillating room space heater with thermostat,item_75.jpg
+76,Portable Fan,Appliances,Bedside Stand,MSOE Apartment,College Student Inventory,Quiet desk oscillating cooling fan,item_76.jpg
+77,Engineering Notebook,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Grid ruled bound lab notebook,item_77.jpg
+78,Scientific Reference Manual,Academics,Bookshelf,MSOE Apartment,College Student Inventory,Mechanical engineering formula handbook,item_78.jpg
+79,Drafting Compass Set,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Precision geometry drafting instrument kit,item_79.jpg
+80,Whiteboard Markers,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Assorted dry erase marker pack 8pc,item_80.jpg
+81,Index Card Box,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Study flashcard organizer with cards,item_81.jpg
+82,Stapler & Office Supplies,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,"Desktop stapler, paperclips, and sticky notes",item_82.jpg
+83,Backpack Student,Academics,Study Desk,MSOE Apartment,College Student Inventory,Water-resistant laptop school backpack,item_83.jpg
+84,Planner Calendar,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Weekly and monthly academic schedule planner,item_84.jpg
+85,Highlighters Pack,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,Assorted pastel highlighter pen set,item_85.jpg
+86,USB Flash Drive 128GB,Academics,Desk Drawer,MSOE Apartment,College Student Inventory,High-speed solid state thumb drive,item_86.jpg
+87,Chef Knife Set,Kitchen,Kitchen Pantry,Home,The Smiths Group,Stainless steel forged kitchen knife block,item_87.jpg
+88,Cutting Board,Kitchen,Kitchen Pantry,Home,The Smiths Group,Hardwood butcher block chopping board,item_88.jpg
+89,Cookware Pots and Pans,Kitchen,Kitchen Pantry,Home,The Smiths Group,Nonstick aluminum saucepan and skillet set,item_89.jpg
+90,Baking Sheet Set,Kitchen,Kitchen Pantry,Home,The Smiths Group,Commercial grade aluminum half sheet pans,item_90.jpg
+91,Dinnerware Plates Set,Kitchen,Kitchen Pantry,Home,The Smiths Group,Ceramic dinner plates and bowls set of 16,item_91.jpg
+92,Drinking Glasses Set,Kitchen,Kitchen Pantry,Home,The Smiths Group,Glass tumbler glassware set,item_92.jpg
+93,Silverware Cutlery Tray,Kitchen,Kitchen Pantry,Home,The Smiths Group,"Stainless steel fork, knife, spoon silverware set",item_93.jpg
+94,Mixing Bowls,Kitchen,Kitchen Pantry,Home,The Smiths Group,Stainless steel nesting bowls with lids,item_94.jpg
+95,Can Opener,Kitchen,Kitchen Pantry,Home,The Smiths Group,Heavy duty ergonomic manual hand can opener,item_95.jpg
+96,Food Storage Containers,Kitchen,Kitchen Pantry,Home,The Smiths Group,Airtight plastic meal prep container set,item_96.jpg
+97,Office Desk Chair,Office,Study Desk,MSOE Apartment,College Student Inventory,Ergonomic mesh rolling swivel desk chair,item_97.jpg
+98,Bookshelf Wooden,Office,Bookshelf,MSOE Apartment,College Student Inventory,5-tier tall vertical shelving unit,item_98.jpg
+99,Filing Cabinet,Office,Desk Drawer,MSOE Apartment,College Student Inventory,2-drawer vertical metal document organizer,item_99.jpg
+100,Desk Organizer Tray,Office,Study Desk,MSOE Apartment,College Student Inventory,Mesh desktop file sorter and pen holder,item_100.jpg
