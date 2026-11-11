@@ -12,7 +12,7 @@ app.use('/api/auth', authRouter);
 const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '', // Update with your MySQL password if required
+    password: 'Rufusking2@',
     database: 'pocket_db',
     waitForConnections: true,
     connectionLimit: 10,
