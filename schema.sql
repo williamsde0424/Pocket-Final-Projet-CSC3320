@@ -1,5 +1,5 @@
 -- =========================================================================
--- Pocket Database Schema
+-- Pocket Database Schema & Query Definitions
 -- Description: Core database architecture for tracking personal possessions
 -- across distributed storage locations, supporting multi-user inventory groups.
 -- =========================================================================
@@ -12,7 +12,8 @@ USE pocket_db;
 CREATE TABLE IF NOT EXISTS user (
     user_id INT AUTO_INCREMENT PRIMARY KEY,          -- Unique identifier for the user
     email VARCHAR(100) NOT NULL UNIQUE,              -- User login email address (must be unique)
-    name VARCHAR(100) NOT NULL                       -- Full display name of the user
+    name VARCHAR(100) NOT NULL,                      -- Full display name of the user
+    password_hash VARCHAR(255) NOT NULL              -- Hashing for password authentication     
 );
 
 -- 2. Inventory Groups Table
@@ -82,3 +83,62 @@ CREATE TABLE IF NOT EXISTS item_category (
     FOREIGN KEY (item_id) REFERENCES item(item_id) ON DELETE CASCADE,
     FOREIGN KEY (cat_id) REFERENCES category(cat_id) ON DELETE CASCADE
 );
+
+
+-- =========================================================================
+-- Non-Trivial Query Demonstrations (Project Requirements)
+-- =========================================================================
+
+-- Query 1: Multi-Table Hierarchy Join
+-- Purpose: Retrieves all inventory items along with their full storage hierarchy 
+-- (Primary Location, optional Sublocation, and parent Inventory Group). 
+-- Uses an outer join for sublocations since sublocations are optional.
+SELECT i.item_id, i.name AS item_name, pl.name AS primary_location, s.name AS sublocation, ig.group_name
+FROM item i
+JOIN primary_location pl ON i.loc_id = pl.loc_id
+LEFT JOIN sublocation s ON i.sub_id = s.sub_id
+JOIN inventory_group ig ON pl.group_id = ig.group_id;
+
+
+-- Query 2: Aggregation and Grouping
+-- Purpose: Calculates the total count of inventory items stored within each primary 
+-- location. Uses a LEFT JOIN to ensure locations with zero items are still displayed.
+SELECT pl.name AS primary_location, COUNT(i.item_id) AS total_items
+FROM primary_location pl
+LEFT JOIN item i ON pl.loc_id = i.loc_id
+GROUP BY pl.loc_id, pl.name;
+
+
+-- Query 3: Many-to-Many Filtering
+-- Purpose: Filters and retrieves all items belonging to a specific category label 
+-- ('Tools') within a specific inventory group (group_id = 1) by traversing 
+-- the item_category bridge table.
+SELECT i.name, i.description
+FROM item i
+JOIN item_category ic ON i.item_id = ic.item_id
+JOIN category c ON ic.cat_id = c.cat_id
+WHERE c.name = 'Tools' AND c.group_id = 1;
+
+
+-- Query 4: Correlated Subquery / Threshold Filter
+-- Purpose: Identifies inventory groups that manage a high volume of assets by 
+-- returning groups that currently contain strictly more than 5 total items across 
+-- their primary locations.
+SELECT ig.group_id, ig.group_name
+FROM inventory_group ig
+WHERE (
+    SELECT COUNT(*) 
+    FROM primary_location pl 
+    JOIN item i ON pl.loc_id = i.loc_id 
+    WHERE pl.group_id = ig.group_id
+) > 5;
+
+
+-- Query 5: Group Membership & Role Lookup
+-- Purpose: Queries the group_member junction table to list all users assigned to a 
+-- specific inventory group (group_id = 1), including their security access role 
+-- (e.g., Admin or Member).
+SELECT u.name AS user_name, u.email, gm.role
+FROM user u
+JOIN group_member gm ON u.user_id = gm.user_id
+WHERE gm.group_id = 1;
